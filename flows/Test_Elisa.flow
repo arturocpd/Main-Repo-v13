@@ -49,12 +49,12 @@
         <dataType>Boolean</dataType>
         <expression>true</expression>
     </formulas>
-    <interviewLabel>Flow_Level-2_InterviewLabel</interviewLabel>
-    <label>Flow Level</label>
+    <interviewLabel>Test_Elisa-2_InterviewLabel</interviewLabel>
+    <label>Test Elisa</label>
     <processMetadataValues>
         <name>ObjectType</name>
         <value>
-            <stringValue>Opportunity</stringValue>
+            <stringValue>Case</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -84,9 +84,6 @@
             </value>
         </processMetadataValues>
         <processMetadataValues>
-            <name>extraTypeInfo</name>
-        </processMetadataValues>
-        <processMetadataValues>
             <name>isChildRelationship</name>
             <value>
                 <booleanValue>false</booleanValue>
@@ -95,11 +92,8 @@
         <processMetadataValues>
             <name>reference</name>
             <value>
-                <stringValue>[Opportunity]</stringValue>
+                <stringValue>[Case]</stringValue>
             </value>
-        </processMetadataValues>
-        <processMetadataValues>
-            <name>referenceTargetField</name>
         </processMetadataValues>
         <name>myRule_1_A1</name>
         <label>Update</label>
@@ -122,7 +116,7 @@
             <processMetadataValues>
                 <name>dataType</name>
                 <value>
-                    <stringValue>String</stringValue>
+                    <stringValue>Boolean</stringValue>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -134,37 +128,31 @@
             <processMetadataValues>
                 <name>leftHandSideLabel</name>
                 <value>
-                    <stringValue>Description</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideReferenceTo</name>
-                <value>
-                    <stringValue></stringValue>
+                    <stringValue>Escalated</stringValue>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
                 <name>rightHandSideType</name>
                 <value>
-                    <stringValue>String</stringValue>
+                    <stringValue>Boolean</stringValue>
                 </value>
             </processMetadataValues>
-            <field>Description</field>
+            <field>IsEscalated</field>
             <value>
-                <stringValue>NewDescription2</stringValue>
+                <booleanValue>false</booleanValue>
             </value>
         </inputAssignments>
-        <object>Opportunity</object>
+        <object>Case</object>
     </recordUpdates>
     <startElementReference>myVariable_waitStartTimeAssignment</startElementReference>
-    <status>Obsolete</status>
+    <status>Active</status>
     <variables>
         <name>myVariable_current</name>
         <dataType>SObject</dataType>
         <isCollection>false</isCollection>
         <isInput>true</isInput>
         <isOutput>true</isOutput>
-        <objectType>Opportunity</objectType>
+        <objectType>Case</objectType>
     </variables>
     <variables>
         <name>myVariable_old</name>
@@ -172,7 +160,7 @@
         <isCollection>false</isCollection>
         <isInput>true</isInput>
         <isOutput>false</isOutput>
-        <objectType>Opportunity</objectType>
+        <objectType>Case</objectType>
     </variables>
     <variables>
         <name>myVariable_waitStartTimeVariable</name>
