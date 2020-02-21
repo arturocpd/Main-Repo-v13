@@ -7,8 +7,10 @@ Public with sharing Class AppleWatch{
         t.Priority    = 'High';
         t.WhatId      = opp.Id;
         insert t;
-     /*Commit conflict111*/
-     /*Comment Number 2*/ 
+
+     /*New lines added 222deaed*/
+     /*New Lines added 333*/ 
+
      
    }
   
