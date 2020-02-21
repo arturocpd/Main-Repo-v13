@@ -98,7 +98,7 @@
         <name>myRule_1_A1</name>
         <label>update</label>
         <locationX>100</locationX>
-        <locationY>200</locationY>
+        <locationY>400</locationY>
         <filters>
             <processMetadataValues>
                 <name>implicit</name>
